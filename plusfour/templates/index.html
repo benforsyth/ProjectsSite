@@ -32,6 +32,7 @@
          {% endfor %}
         </ol>
         <div class="carousel-inner">
+        <img data-src="holder.js/100%x500/#666:#6a6a6a/text: ">
         {% for project in project_list %}
           {% if forloop.first %}
           <div class="item active">
@@ -39,7 +40,6 @@
           <div class="item">
           {% endif %}
           <div class="container">
-           <img data-src="holder.js/900x500/auto/#666:#6a6a6a">
            <div class="carousel-caption">
                <h1>{{project.name}}</h1>
                <p>{{project.description}}</p>
